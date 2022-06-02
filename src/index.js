@@ -1,4 +1,2 @@
-import generatejoke from "./generatejoke";
+/* eslint-disable linebreak-style */
 import './styles/style.css';
-console.log(generatejoke())
-console.timeLog(1)

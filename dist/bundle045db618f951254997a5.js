@@ -21,7 +21,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "h3 {\r\n  color: red;  \r\n}", "",{"version":3,"sources":["webpack://./src/styles/style.css"],"names":[],"mappings":"AAAA;EACE,UAAU;AACZ","sourcesContent":["h3 {\r\n  color: red;  \r\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "* {\r\n  padding: 0;\r\n  margin: 0;\r\n}", "",{"version":3,"sources":["webpack://./src/styles/style.css"],"names":[],"mappings":"AAAA;EACE,UAAU;EACV,SAAS;AACX","sourcesContent":["* {\r\n  padding: 0;\r\n  margin: 0;\r\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -528,23 +528,6 @@ function styleTagTransform(css, styleElement) {
 
 module.exports = styleTagTransform;
 
-/***/ }),
-
-/***/ "./src/generatejoke.js":
-/*!*****************************!*\
-  !*** ./src/generatejoke.js ***!
-  \*****************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
- function generatejoke(){
-    return "Loremsnkjnkcnckjnkjdzc"
-}
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (generatejoke);
-
 /***/ })
 
 /******/ 	});
@@ -627,14 +610,12 @@ var __webpack_exports__ = {};
   !*** ./src/index.js ***!
   \**********************/
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _generatejoke__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./generatejoke */ "./src/generatejoke.js");
-/* harmony import */ var _styles_style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles/style.css */ "./src/styles/style.css");
+/* harmony import */ var _styles_style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles/style.css */ "./src/styles/style.css");
+/* eslint-disable linebreak-style */
 
 
-console.log((0,_generatejoke__WEBPACK_IMPORTED_MODULE_0__["default"])())
-console.timeLog(1)
 })();
 
 /******/ })()
 ;
-//# sourceMappingURL=bundle0791dd85eeb9801a101c.js.map
+//# sourceMappingURL=bundle045db618f951254997a5.js.map
